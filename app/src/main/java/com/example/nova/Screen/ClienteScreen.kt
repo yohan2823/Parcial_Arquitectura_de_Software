@@ -70,7 +70,7 @@ fun ClienteScreen(navController: NavController, clienteRepository: ClienteReposi
                             navController.navigate("editCliente/${selectedCliente.id}")
                         },
                         onDeleteClick = { selectedCliente ->
-                            clienteToDelete = selectedCliente // Establece el cliente a eliminar
+                            clienteToDelete = selectedCliente
                         }
                     )
                 }

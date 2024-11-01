@@ -31,7 +31,7 @@ fun VentaScreen(
     val coroutineScope = rememberCoroutineScope()
     val productos = remember { mutableMapOf<Int, String>() }
     val clientes = remember { mutableMapOf<Int, String>() }
-    var ventaToDelete by remember { mutableStateOf<Venta?>(null) } // Venta a eliminar
+    var ventaToDelete by remember { mutableStateOf<Venta?>(null) }
 
     LaunchedEffect(Unit) {
         ventas.clear()

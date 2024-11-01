@@ -11,7 +11,7 @@ import com.example.nova.Model.Cliente
 import com.example.nova.Model.Producto
 import com.example.nova.Model.Venta
 
-// Aumenta la versión de la base de datos a 2 para reflejar cambios en el esquema
+
 @Database(entities = [Producto::class, Cliente::class, Venta::class], version = 2, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun productoDao(): ProductoDao

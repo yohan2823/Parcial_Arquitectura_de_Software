@@ -51,7 +51,6 @@ fun ProductoScreen(navController: NavController, productoRepository: ProductoRep
                 .padding(padding)
                 .padding(16.dp)
         ) {
-            // Lista de productos existentes
             Text("Lista de Productos", style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(vertical = 16.dp))
 
             LazyColumn {

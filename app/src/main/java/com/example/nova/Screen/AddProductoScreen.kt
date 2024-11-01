@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 @Composable
 fun AddProductoScreen(navController: NavController, productoRepository: ProductoRepository) {
-    // Variables para almacenar los valores ingresados
+
     var nombre by remember { mutableStateOf("") }
     var precio by remember { mutableStateOf("") }
     var stock by remember { mutableStateOf("") }
